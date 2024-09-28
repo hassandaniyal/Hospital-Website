@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hospital Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <section id="navbar">
+        <nav class="navbar  navbar-expand-lg  navColor">
+            <div class="container">
+                <img src="./images/Home/Logo.png" height="80px" alt="">
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse px-5 " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto  mb-2 mb-lg-0  ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light linksNav" aria-current="page" href="index.html">
+                                Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light linksNav" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item"></li>
+                        <a class="nav-link text-light linksNav" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item"></li>
+                        <a class="nav-link text-light linksNav" href="doctors.html">Doctors</a>
+                        </li>
+                        <li class="nav-item"></li>
+                        <a class="nav-link text-light linksNav" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item"></li>
+                        <a class="nav-link text-light linksNav" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex gap-column-5 align-items-center justify-content-center ">
+                        <i class="ri-search-line px-3 text-light search "> </i>
+                        <div>
+                            <a href="appointment.html" class="btn heroBtn fw-semibold"> Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="appointment">
+        <h1 class="fw-bold about">Book an Appointment</h1>
+    </section>
+
+    <section id="bookAppointment">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-5">
+                    <h2 class="purple2 pb-1 fw-semibold">Book an Appointment</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Quisque placerat scelerisque tortor
+                        ornare ornare. Convallis<br> felis vitae tortor augue. Velit nascetur proin massa in.<br>
+                        Consequat faucibus porttitor enim et.</p>
+
+                    <div class="bookForm">
+                        <form class="p-3">
+                            <label for="name" class=" py-2"> Name : </label><br>
+                            <input class="name px-5" type="text" id="name"><br>
+                            <label for="gender" class="pt-2">Gender :</label><br>
+                            <input class="pb-1" type="radio" id="gender">Male<br>
+                            <input type="radio" id="gender">Female<br>
+                            <label for="phone" class="py-2"> Phone : </label><br>
+                            <input class="name px-5" type="phone" id="phone"><br>
+                            <label for="email" class="py-2"> Email : </label><br>
+                            <input class="name px-5" type="email" id="email"><br>
+                            <label for="name" class="py-2"> Subject : </label><br>
+                            <input class=" name mb-3 px-5" type="text" id="name"><br>
+                            <label for="name" class="py-2"> Doctor : </label><br>
+                            <input class=" name mb-3 px-5" type="text" id="name"><br>
+                            <label for="name" class="py-2"> Time : </label><br>
+                            <input class=" name mb-3 px-5" type="time" id="name"><br>
+                            <textarea id="message" name="message" rows="4"
+                                cols="50">Enter your message here.. </textarea><br>
+                            <input class="mt-2" type="submit" value="Submit"
+                                style="background-color: #BFD2F8; color: #1F2B6C;">
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-md-6  daysBook text-center ">
+                    <div class="ps-5 pt-4 pb-5" style="background-color: #1F2B6C; color: white;">
+                        <h2 class="fw-bold s" style="color:#BFD2F8 ;">Shedule hours</h2>
+                        <div class="d-flex gap-5 , justify-content-center pt-4">
+                            <p>Monday</p>
+                            <p>09:00 AM - 07:00 PM</p>
+                        </div>
+                        <div class="d-flex gap-5 justify-content-center align-items-center py-2">
+                            <p>Tuesday</p>
+                            <p>09:00 AM - 07:00 PM</p>
+                        </div>
+                        <div class="d-flex gap-5 justify-content-center align-items-center">
+                            <p>Wednesday</p>
+                            <p>09:00 AM - 07:00 PM</p>
+                        </div>
+                        <div class="d-flex gap-5 justify-content-center align-items-center py-2">
+                            <p>Thrusday</p>
+                            <p>09:00 AM - 07:00 PM</p>
+                        </div>
+                        <div class="d-flex gap-5 justify-content-center align-items-center">
+                            <p>Friday</p>
+                            <p>09:00 AM - 07:00 PM</p>
+                        </div>
+                        <div class="d-flex gap-5 justify-content-center align-items-center py-2">
+                            <p>Saturday</p>
+                            <p>09:00 AM - 07:00 PM</p>
+                        </div>
+                        <div class="d-flex gap-5 justify-content-center align-items-center">
+                            <p>Sunday</p>
+                            <p>Closed</p>
+                        </div>
+                        <hr width="460px">
+                        <div class="d-flex align-items-center justify-content-center gap-2">
+                            <i class="ri-phone-line ri-2x " style="color:#BFD2F8; "></i>
+                            <div>
+                                <h5>Emergency</h5>
+                                <h5 class="px-2 " style="color:#BFD2F8;">(237) 681-812-255</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map"></section>
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <img src="./images/contact/map.png">
+        </div>
+    </div>
+    </section>
+
+    <section id="contactUs">
+        <div class="pt-5 pb-5">
+            <h6 class="text-uppercase text-center fw-bold pt-2" style="color: #159EEC;">Get in touch</h6>
+            <h3 class="fw-bold text-center" style="color: #1F2B6C;">Contact</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 ">
+                    <div class="call p-4 pt-5">
+                        <img src="./images/home/phone.png">
+                        <h6 class="pt-3 fw-semibold">Emergency</h6>
+                        <p>(237) 681-812-255<br>(237) 666-331-894</p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="call p-4 pt-5" style="background-color: #1F2B6C; color: #BFD2F8;">
+                        <img src="./images/home/location.png">
+                        <h6 class="pt-3 fw-semibold">Location</h6>
+                        <p>0123 Some place<br>9876 Some country</p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="call p-4 pt-5">
+                        <img src="./images/home/email.png">
+                        <h6 class="pt-3 fw-semibold">Email</h6>
+                        <p>fildineeesoe@gmil.com<br>ahmadneeesoe@gmil.com</p>
+                    </div>
+                </div>
+                <div class="col-md-3 ">
+                    <div class="call p-4 pt-5">
+                        <img src="./images/home/clock.png">
+                        <h6 class="pt-3 fw-semibold">Working Hours</h6>
+                        <p>Mon-Sat 09:00-20:00<br>Sunday Emergency only</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-3">
+                    <h2 class="text-uppercase pt-2" style="color: #BFD2F8;">Meddical</h2>
+                    <p class="footerPara">Leading the Way in Medical<br>
+                        Execellence, Trusted Care.</p>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="pb-4">Important Links</h6>
+                    <div class="footerPara">
+                        <p>Appointment<br>
+                        <p>Doctors
+                        <p>
+                        <p>Services</p>
+                        <p>About Us</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="pb-4">Contact Us</h6>
+                    <div class="footerPara">
+                        <p>Call: (237) 681-812-255</p>
+                        <p>Email: fildineesoe@gmail.com</p>
+                        <p>Address: 0123 Some Place</p>
+                        <p>Some country</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="pb-4">Newsletter</h6>
+                    <button type="button" class="btn  btn-lg fs-6 para"
+                        style="background-color: #BFD2F8; color: #1F2B6C;">Enter your email address <i
+                            class="ri-send-plane-fill"></i> </button>
+                </div>
+            </div>
+            <hr class="pt-4">
+            <div class="d-flex justify-content-between">
+                <p class="footerPara">© 2021 Hospital’s name All Rights Reserved by PNTEC-LTD</p>
+                <div class="d-flex align-items-center column-gap-4">
+                    <img src="./images/home/linkdin.png">
+                    <img src="./images/home/facebook.png">
+                    <img src="./images/home/insta.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

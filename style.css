@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #FAFDFE;
+
+}
+
+.navColor {
+    background-color: #1F2B6C;
+    font-weight: normal;
+}
+
+.search {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.linksNav {
+    transition: all 1s ease;
+}
+
+.linksNav:hover {
+    color: #BFD2F8 !important;
+}
+
+.heroBtn:hover {
+    background-color: #85a9f0 !important;
+}
+
+
+.contactIcon {
+    background-color: #BFD2F8 !important;
+    border-radius: 50%;
+}
+
+#hero {
+    background-image: url(./images/Home/background.jpg);
+    background-size: cover;
+    height: 400px;
+    border: 1px solid #BFD2F8;
+
+}
+
+.data {
+    padding-top: 125px;
+
+}
+
+.heroBtn {
+    border-radius: 30px !important;
+    background-color: #BFD2F8 !important;
+    color: #1F2B6C !important;
+
+}
+
+.doc {
+    background-image: url(./images/Home/doctor1.png);
+    background-size: cover;
+    height: 397px;
+}
+
+.div {
+    margin-top: 370px;
+}
+
+.heroHeading {
+    color: #159EEC;
+
+}
+
+.head {
+    color: #1F2B6C;
+
+}
+
+.cards {
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+    width: 300px;
+    margin-top: -35px;
+    font-size: 14px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.infoPara {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.services {
+    border: 1px solid silver;
+    border-radius: 5px;
+    height: 495px;
+    width: 157px;
+
+}
+
+.diases {
+    transition: all 1s ease;
+
+
+}
+
+.diases:hover {
+    background-color: #1F2B6C;
+    color: #85a9f0;
+    cursor: pointer;
+
+
+}
+
+.heart {
+    background-color: #1F2B6C;
+}
+
+.serviceBtn {
+    padding: 1px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.servicesPara {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.para {
+    font-weight: 400;
+}
+
+.bones {
+    background-color: #1F2B6C;
+    color: #85a9f0;
+
+}
+
+.specialtyHearts {
+    transition: all 1s ease;
+}
+
+.specialtyHearts:hover {
+    background-color: #1F2B6C;
+    color: #159EEC;
+    cursor: pointer;
+
+}
+
+.call {
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+    width: 230px;
+    height: 230px;
+    border-radius: 5px;
+}
+
+#footer {
+    background-color: #1F2B6C;
+    margin-top: 70px;
+    padding: 10px;
+    padding-top: 50px;
+    color: white;
+
+}
+
+.footerPara {
+    font-size: 14px;
+}
+
+#aboutHero {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.47)), url(./images/about/thumnil.png);
+    background-size: cover;
+    height: 250px;
+    color: #1F2B6C;
+
+}
+
+.about {
+    padding-top: 150px;
+    padding-left: 150px;
+    color: #001695;
+    text-shadow: 2px 3px 4px #85a9f0;
+
+}
+
+#docInfo {
+    background-image: linear-gradient(to bottom, rgba(29, 71, 155, 0.47), rgba(37, 41, 159, 0.47)), url(./images/about/doc2.png);
+    background-size: cover;
+    height: 313px;
+
+
+}
+
+.line {
+    margin-left: 450px;
+}
+
+.pg {
+    font-weight: 500;
+}
+
+#servicesHero {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.47)), url(./images/services/thumbnil.png);
+    background-size: cover;
+    height: 250px;
+    color: #001695;
+}
+
+.seviceImg {
+    background-image: url(./images/services/doctor.png);
+    background-size: cover;
+    height: 300px;
+
+
+}
+
+.serviceimage {
+    background-image: linear-gradient(to bottom, rgba(29, 71, 155, 0.47), rgba(37, 41, 159, 0.47)), url(./images/services/doctor.png);
+    background-size: cover;
+    height: 300px;
+
+
+
+}
+
+.services2 {
+    padding-top: 130px;
+    padding-left: 150px;
+    color: #001695;
+    text-shadow: 2px 3px 4px #85a9f0;
+}
+
+.serviceIcon {
+    margin-left: 130px;
+    margin-top: 125px;
+
+
+}
+
+.serviceIcons {
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+.doctorHero {
+    background-image: url(./images/hospital/thumbnil.png);
+    background-size: cover;
+    height: 300px;
+}
+
+.logoCircle {
+    background-color: #1F2B6C;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    top: 260px;
+    left: 270px;
+    margin-top: 270px;
+    margin-left: 217px;
+
+}
+
+.dicCard {
+    margin-top: 100px;
+}
+
+.newsCards {
+    box-shadow: 1px 1px 1px 1px silver;
+}
+
+#News {
+    background-color: #dde6ec;
+}
+
+.newsHero {
+    padding-top: 100px;
+    padding-left: 150px;
+    color: #001695;
+    text-shadow: 2px 3px 4px #85a9f0;
+}
+
+.newContent {
+    padding-left: 150px;
+}
+
+
+
+
+
+#contactHero {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.47)), url(./images/contact/thmbnil.png);
+    background-size: cover;
+    height: 250px;
+}
+
+.form {
+    background-color: #1F2B6C;
+    color: white;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+#newsHero {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.47)), url(./images/news/thumnil.png);
+    background-size: cover;
+    height: 250px;
+}
+
+.purple1 {
+    color: #001695 !important;
+
+}
+
+.purple2 {
+    color: #1F2B6C !important;
+}
+
+.purplebg {
+    background-color: #1F2B6C !important;
+    color: #BFD2F8 !important;
+}
+
+.skyblue {
+    color: #159EEC;
+
+}
+
+.lightblue {
+    background-color: #BFD2F8 !important;
+    border-radius: 30px !important;
+}
+
+.postPara {
+    font-weight: 400;
+}
+
+.Btn {
+    width: 400px
+}
+
+.newsIcon {
+    padding-left: 280px;
+}
+
+.newsPosts {
+    width: 400px;
+    padding: 20px 0;
+    padding-left: 22px;
+}
+
+.points {
+    background-color: #159EEC;
+    color: white;
+    font-weight: 400;
+}
+
+#appointment {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.47)), url(./images/appoinment/thumnil.png);
+    background-size: cover;
+    height: 250px;
+}
+
+.bookForm {
+    background-color: #1F2B6C;
+    color: white;
+}
+
+.daysBook {
+    padding-top: 210px;
+}
